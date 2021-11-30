@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+@media only screen and (max-width: 768px){
+	.titleSection{
+
+		flex-direction: row;
+		justify-content: space-around;
+		
+	}
+	#title span{
+		font-size: 30px;
+	}
+	.titleSection img{
+		width:20%;
+	}
+	.chatMessages{
+		margin-top: 30px;
+	}
+	.settingArea{
+		width: 50%;
+		margin-top: 30px;
+
+	}
+	.setButtons{
+		display: none;
+	}
+	.usersSection{
+		flex-direction: row;
+		flex-wrap: wrap;
+		overflow-y: scroll;
+		height: 20vh;
+	}
+	.usersSection h6{
+		margin: 10px;
+	}
+	.msg{
+	width: 100%;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 3px; 
+	background-color: antiquewhite; 
+}
+::-webkit-scrollbar-thumb {
+	background-color: #6AC1C4; 
+	border-radius:3px 
+}
+::-webkit-scrollbar-thumb:hover { 
+	background-color: #6AC1C4
+}
